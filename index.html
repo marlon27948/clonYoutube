@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./imagenes/YouTubehead.png">
+    <title>YouTube</title>
+</head>
+<body>
+
+    <!--barra lateral-->
+    <aside>
+        <!--burger menu-->
+        <div class="iconoLateral">
+            <img class="imagen" src="./imagenes/burger menu2.png" alt="BurgerMenu">
+        </div>
+        <!--home-->
+        <div id="iconoHome" class="iconoLateral">
+            <a href="https://www.youtube.com/">
+                <img class="imagen" src="./imagenes/prueba de medida home.png" alt="Principal">
+            </a>
+            <p class="parrafo">Principal</p>
+        </div>
+        <!--shorts-->
+        <div class="iconoLateral">
+            <a href="https://www.youtube.com/shorts/Q8SX7gaA-wI">
+                <img class="imagen" src="./imagenes/Shorts.png" alt="Shorts">
+            </a>
+            <p class="parrafo">Shorts</p>
+        </div>
+        <!--Suscripciones-->
+        <div class="iconoLateral">
+            <a href="https://www.youtube.com/feed/subscriptions">
+                <img class="imagen" src="./imagenes/suscripciones.png" alt="Suscripciones">
+            </a>
+            <p class="parrafo">Suscripciones</p>
+        </div>
+        <!--Biblioteca-->
+        <div class="iconoLateral">
+            <a href="https://www.youtube.com/feed/library">
+                <img class="imagen" src="./imagenes/Biblioteca2.png" alt="Biblioteca">
+            </a>
+            <p class="parrafo">Biblioteca</p>
+        </div>
+    </aside>
+
+    <!--barra de navegacion, recomendaciones y video-->
+    <main>
+
+        <!--barra de navegacion-->
+        <nav>
+            <!--logotipo de youtube-->
+            <div id="logotipoYt">
+                <a href="https://www.youtube.com/">
+                    <img class="imagenLogo" src="./imagenes/logotipoYT.png" alt="YouTube">
+                </a>
+            </div>
+            <!--input y boton de microfono-->
+            <div id="busquedaymicrofono">
+                <!--input y lupa-->
+                <div id="barraDeBusqueda">
+                    <input id="Barra" type="text" placeholder="Buscar">
+                    <button id="botonDeBusqueda">
+                        <img id="imagenDeBoton" src="./imagenes/lupa.png" alt="Lupa">
+                    </button>
+                </div>
+                <!--microfono-->
+                <button id="botonDeMicro">
+                    <img id="imagenDeMicro" src="./imagenes/microfono.png" alt="Microfono">
+                </button>
+            </div>
+            <!--acciones de usuario-->
+            <div id="accionesDeUsuario">
+                <img id="imagenesDeUsuario1" src="./imagenes/subirvideo.png" alt="crear">
+                <img id="imagenesDeUsuario2" src="./imagenes/notificaciones.png" alt="Notificaciones">
+                <img id="imagenesDeUsuario3" src="./imagenes/perfil.png" alt="Perfil">
+            </div>
+        </nav>
+
+        <!--barra de recomendaciones-->
+        <section id="barraDerecomendados">
+            <a href="">
+            <button id="botonTodos" class="botonRecomendacion">Todos</button>
+        </a>
+        <a href="">
+            <button class="botonRecomendacion">Mixes</button>
+        </a>
+        <a href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ">
+            <button class="botonRecomendacion">Musica</button>
+        </a>
+        <a href="">
+            <button class="botonRecomendacionEspecial">FC Barcelona</button>
+        </a>
+        <a href="">
+            <button class="botonRecomendacionEspecial">En tiempo real</button>
+        </a>
+        <a href="">
+            <button class="botonRecomendacionEspecial">Videojuegos</button>
+        </a>
+        <a href="">
+            <button class="botonRecomendacionEspecial">Programacion</button>
+        </a>
+        <a href="">
+            <button class="botonRecomendacion">Gimnasio</button>
+        </a>
+        <a href="">
+            <button class="botonRecomendacion">Podcast</button>
+        </a>
+        <a href="">
+            <button class="botonRecomendacionEspecial">Pensamientos</button>
+        </a>
+        <a href="">
+            <button class="botonRecomendacion">Chill out</button>
+        <a href="">
+            <button id="botonMas"> > </button>
+        </a>
+        </section>
+
+        <!--cuadricula de videos-->
+        <section id="cuadriculaDeVideos">
+            <!--video 1-->
+            <div class="video">
+                <!--imagen del video / fila superior-->
+                <a href="https://www.youtube.com/watch?v=HHPZjtCEZ1A">
+                    <img class="imagenvideo" src="./imagenes/video1.png" alt="Imagen del video">
+                </a>
+                <!--fila inferior-->
+                <div class="perfilytexto">
+                    <div>
+                        <a href="https://www.youtube.com/@JAYMENEZOficial">
+                            <img class="imagenperfil" src="./imagenes/perfil1.png" alt="perfil del canal">
+                        </a>
+                    </div>
+                    <!--titulo, canal y visitas-->
+                    <div class="textoDeVideos">
+                        <a href="https://www.youtube.com/watch?v=HHPZjtCEZ1A" style="text-decoration: none;">
+                            <h3 class="nombreDeVideo">Jay Menez, Beele - Nanae (Oficial Video)</h3>
+                        </a>
+                        <p>JAY MENEZ</p>
+                        <p>9.1 M de vistas ° hace 1 año</p>
+                    </div>
+                </div>
+            </div>
+            <!--video 2-->
+            <div class="video">
+                <!--imagen del video / fila superior-->
+                <a href="https://www.youtube.com/watch?v=iDADfbH7ghI">
+                    <img class="imagenvideo" src="./imagenes/video2.png" alt="Imagen del video">
+                </a>
+                <!--fila inferior-->
+                <div class="perfilytexto">
+                    <div>
+                        <a href="https://www.youtube.com/@Platzi">
+                            <img class="imagenperfil" src="./imagenes/perfil2.png" alt="perfil del canal">
+                        </a>
+                    </div>
+                    <!--titulo, canal y visitas-->
+                    <div class="textoDeVideos">
+                        <a href="https://www.youtube.com/watch?v=iDADfbH7ghI" style="text-decoration: none;">
+                            <h3 class="nombreDeVideo">Como sera la programacion en los proximos 10 años</h3>
+                        </a>
+                        <p>Platzi</p>
+                        <p>33,937 vistas ° hace 7 horas</p>
+                    </div>
+                </div>
+            </div>
+            <!--video 3-->
+            <div class="video">
+                <!--imagen del video / fila superior-->
+                <a href="https://www.youtube.com/watch?v=SDAVyMuPah0">
+                    <img class="imagenvideo" src="./imagenes/video3.png" alt="Imagen del video">
+                </a>
+                <!--fila inferior-->
+                <div class="perfilytexto">
+                    <div>
+                        <a href="https://www.youtube.com/@ChrisBumstead">
+                            <img class="imagenperfil" src="./imagenes/perfil3.png" alt="perfil del canal">
+                        </a>
+                    </div>
+                    <!--titulo, canal y visitas-->
+                    <div class="textoDeVideos">
+                        <a href="https://www.youtube.com/watch?v=SDAVyMuPah0" style="text-decoration: none;">
+                            <h3 class="nombreDeVideo">Killer leg day - full workout</h3>
+                        </a>
+                        <p>Chris Bumstead</p>
+                        <p>3.5 M de vistas ° hace 11 meses</p>
+                    </div>
+                </div>
+            </div>
+            <!--video 4-->
+            <div class="video">
+                <!--imagen del video / fila superior-->
+                <a href="https://www.youtube.com/watch?v=2LxF47o03m4">
+                    <img class="imagenvideo" src="./imagenes/video4.png" alt="Imagen del video">
+                </a>
+                <!--fila inferior-->
+                <div class="perfilytexto">
+                    <div>
+                        <a href="https://www.youtube.com/@MisterSeitanYoutube">
+                            <img class="imagenperfil" src="./imagenes/perfil4.png" alt="perfil del canal">
+                        </a>
+                    </div>
+                    <!--titulo, canal y visitas-->
+                    <div class="textoDeVideos">
+                        <a href="https://www.youtube.com/watch?v=2LxF47o03m4" style="text-decoration: none;">
+                            <h3 class="nombreDeVideo">Del "Xavi out" al exito y records historicos en... </h3>
+                        </a>
+                        <p>Mister Seitan</p>
+                        <p>82,576 vistas ° hace 1 año</p>
+                    </div>
+                </div>
+            </div>
+            <!--video 5-->
+            <div class="videoEspecial">
+                <!--imagen del video / fila superior-->
+                <a href="https://www.youtube.com/watch?v=sLm75G8KCYE">
+                    <img class="imagenvideo" src="./imagenes/video5.png" alt="Imagen del video">
+                </a>
+                <!--fila inferior-->
+                <div class="perfilytexto">
+                    <div>
+                        <a href="https://www.youtube.com/@AdrianSaenz">
+                            <img class="imagenperfil" src="./imagenes/perfil5.png" alt="perfil del canal">
+                        </a>
+                    </div>
+                    <!--titulo, canal y visitas-->
+                    <div class="textoDeVideos">
+                        <a href="https://www.youtube.com/watch?v=sLm75G8KCYE" style="text-decoration: none;">
+                            <h3 class="nombreDeVideo">Una semana minando criptomenedas con mi...</h3>
+                        </a>
+                        <p>Adrian Saenz</p>
+                        <p>1.8 M de vistas ° hace 1 año</p>
+                    </div>
+                </div>
+            </div>
+            <!--video 6-->
+            <div class="videoEspecial">
+                <!--imagen del video / fila superior-->
+                <a href="https://www.youtube.com/watch?v=ksqlpkLd45U">
+                    <img class="imagenvideo" src="./imagenes/video6.png" alt="Imagen del video">
+                </a>
+                <!--fila inferior-->
+                <div class="perfilytexto">
+                    <div>
+                        <a href="https://www.youtube.com/@DeepMoodRadio">
+                            <img class="imagenperfil" src="./imagenes/perfil6.png" alt="perfil del canal">
+                        </a>
+                    </div>
+                    <!--titulo, canal y visitas-->
+                    <div class="textoDeVideos">
+                        <a href="https://www.youtube.com/watch?v=ksqlpkLd45U" style="text-decoration: none;">
+                            <h3 class="nombreDeVideo">HOUSE RELAX 2023 - chhill OUT</h3>
+                        </a>
+                        <p>Helios Deep</p>
+                        <p>1 M de vistas ° hace 2 dias</p>
+                    </div>
+                </div>
+            </div>
+            <!--video 7-->
+            <div class="videoEspecial">
+                <!--imagen del video / fila superior-->
+                <a href="https://www.youtube.com/watch?v=7TnMoS1cqtk&list=RD7TnMoS1cqtk&start_radio=1" style="text-decoration: none;">
+                    <img class="imagenvideo" src="./imagenes/video7.png" alt="Imagen del video">
+                </a>
+                <!--fila inferior-->
+                <div class="perfilytexto">
+                    <div>
+                        <a href="https://www.youtube.com/@HavanaDPrimeraOfficial">
+                            <img class="imagenperfil" src="./imagenes/perfil7.png" alt="perfil del canal">
+                        </a>
+                    </div>
+                    <!--titulo, canal y visitas-->
+                    <div class="textoDeVideos">
+                        <a href="https://www.youtube.com/watch?v=7TnMoS1cqtk&list=RD7TnMoS1cqtk&start_radio=1" style="text-decoration: none;">
+                            <h3 class="nombreDeVideo" >Mas rollo que pelicula - Havana D primera </h3>
+                        </a>
+                        <p>Havana de primera</p>
+                        <p>19 M de vistas ° hace 4 años</p>
+                    </div>
+                </div>
+            </div>
+            <!--video 8-->
+            <div class="videoEspecial">
+                <!--imagen del video / fila superior-->
+                <a href="https://www.youtube.com/watch?v=Xus2cLnEoUs">
+                    <img class="imagenvideo" src="./imagenes/video8.png" alt="Imagen del video">
+                </a>
+                <!--fila inferior-->
+                <div class="perfilytexto">
+                    <div>
+                        <a href="https://www.youtube.com/@laingarciacalvo">
+                            <img class="imagenperfil" src="./imagenes/perfil8.png" alt="perfil del canal">
+                        </a>
+                    </div>
+                    <!--titulo, canal y visitas-->
+                    <div class="textoDeVideos">
+                        <a href="https://www.youtube.com/watch?v=Xus2cLnEoUs" style="text-decoration: none;">
+                            <h3 class="nombreDeVideo">Como aumentar tu habilidad social para nunca...</h3>
+                        </a>
+                        <p>Alejandro Ruiz</p>
+                        <p>2 M de vistas ° hace 2 años</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="modeloShorts">
+            <div id="barraShorts">
+                <div id="shorts2">
+                    <img id="imagenshorts2" src="./imagenes/shorts2.png" alt="shorts">
+                    <p id="texto shorts2">Shorts</p>
+                </div>
+                <div id="cerrar">
+                    <img src="./imagenes/cerrarimagem.png" alt="cerrar">
+                </div>
+            </div>
+            <div id="cuadriculashorts">
+                <div>
+                    <div>
+                        <img src="./imagenes/shortsimagen1.png" alt="shorts1">
+                    </div>
+                    <div class="textoshorts2">
+                        <h3>Car Animation / HTML CSS</h3>
+                        <p class="shortsvistas">21,835 vistas>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="./imagenes/shortsimagen2.png" alt="shorts2">
+                    </div>
+                    <div class="textoshorts2">
+                        <h3>Gana con problemas en el biceps</h3>
+                        <p class="shortsvistas">104,920 vistas</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="./imagenes/Shortsimagen3.png" alt="shorts3">
+                    </div>
+                    <div class="textoshorts2">
+                        <h3>The incredible physical transformation of...</h3>
+                        <p class="shortsvistas">13 M de vistas</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="./imagenes/shortsimagen4.png" alt="shorts4">
+                    </div>
+                    <div class="textoshorts2">
+                        <h3>La bachata / Bachata choreography)</h3>
+                        <p class="shortsvistas">4 M de vistas</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="./imagenes/shortsimagen5.png" alt="shorts5">
+                    </div>
+                    <div class="textoshorts2">
+                        <h3>El dia que marque un gol...</h3>
+                        <p class="shortsvistas">3.8 M de vistas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
