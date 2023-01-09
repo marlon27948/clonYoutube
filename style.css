@@ -144,6 +144,9 @@ main .botonRecomendacion{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(236, 232, 232);
 }
+main .botonRecomendacion:hover{
+    background-color: rgb(97, 96, 96);
+}
 main .botonRecomendacionEspecial{
     height: 35px;
     width: 120px;
@@ -152,6 +155,10 @@ main .botonRecomendacionEspecial{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(236, 232, 232);
 }
+main .botonRecomendacionEspecial:hover{
+    background-color: rgb(97, 96, 96);
+}
+
 main #botonTodos{
     background-color: black;
     color: white;
@@ -165,6 +172,9 @@ main #botonMas{
     background: none;
     border-radius: 25px;
     border-style: none;
+}
+main #botonMas:hover{
+    background-color: rgb(97, 96, 96);
 }
 
 /*cuadricula de videos*/
